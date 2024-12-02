@@ -1,0 +1,77 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title: "
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <!-- Description -->
+    <TextView
+        android:id="@+id/text_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description: "
+        android:textSize="15sp"/>
+
+    <!-- Status -->
+    <TextView
+        android:id="@+id/text_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status:  "
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <!-- Notes -->
+    <TextView
+        android:id="@+id/text_notes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notes:  "
+        android:textSize="15sp"/>
+
+    <!-- Client Name -->
+    <TextView
+        android:id="@+id/text_client_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Client Name: "
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <!-- Action Icons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:paddingTop="8dp">
+
+        <!-- Edit Icon -->
+        <ImageView
+            android:id="@+id/icon_edit"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_edi"
+            android:contentDescription="Edit"
+            android:padding="4dp"/>
+
+        <!-- Delete Icon -->
+        <ImageView
+            android:id="@+id/icon_delete"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_delete"
+            android:contentDescription="Delete"
+            android:padding="4dp"/>
+    </LinearLayout>
+</LinearLayout>

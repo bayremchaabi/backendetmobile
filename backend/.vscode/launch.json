@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-PiCoachApplication<PiCoach>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.example.coach.PiCoachApplication",
+      "projectName": "PiCoach",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
